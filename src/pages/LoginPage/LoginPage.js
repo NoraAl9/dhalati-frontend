@@ -105,13 +105,14 @@ function LoginPage() {
             fullWidth
           />
         </Grid>
-        <Grid item xs={12} sm={12} md={12} lg={12}>
+        <Grid item xs={12} sm={12} md={12} lg={12} >
           <LoadingButton
             variant="contained"
             disabled={!dirty}
             onClick={handleSubmit}
             loading={isSubmitting}
             fullWidth
+            sx={{ backgroundColor: "#2f575c" }}
           >
             Login
           </LoadingButton>

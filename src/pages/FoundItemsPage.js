@@ -47,7 +47,7 @@ function FoundItemsPage() {
       <Container>
         <Grid container spacing={3} sx={{ pt: 6 }}>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Typography variant="h5" color="primary">
+            <Typography variant="h5" color="#2f575c">
               Found Items
             </Typography>
           </Grid>

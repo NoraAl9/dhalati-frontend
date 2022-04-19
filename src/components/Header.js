@@ -48,7 +48,7 @@ function Header() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "red" }}>
+    <AppBar position="static" sx={{ backgroundColor: "#2f575c" }}>
       <Container maxWidth="xl">
         <Box
           sx={{

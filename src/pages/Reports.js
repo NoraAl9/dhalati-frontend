@@ -39,7 +39,7 @@ function Reports() {
       flex: 1,
       renderCell: (params) => (
         <Chip
-          sx={{ backgroundColor: "red", color: "white" }}
+          sx={{ backgroundColor: "#550a0e", color: "white" }}
           label={params.value}
           variant="contained"
         />
@@ -53,7 +53,7 @@ function Reports() {
         <Chip
           color={params.value ? "primary" : "error"}
           variant="outlined"
-          label={params.value ? "Closed" : "In progress"}
+          label={params.value ? "#550a0e" : "In progress"}
         />
       ),
     },
@@ -88,7 +88,7 @@ function Reports() {
       <Container>
         <Grid container spacing={3} sx={{ pt: 6 }}>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Typography variant="h5" color="red">
+            <Typography variant="h5" color="#2f575c">
               Reports
             </Typography>
           </Grid>

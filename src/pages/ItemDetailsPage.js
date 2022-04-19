@@ -49,7 +49,7 @@ function ItemDetailsPage() {
       <Container>
         <Grid container spacing={3} sx={{ pt: 6 }}>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Typography variant="h5" color="primary">
+            <Typography variant="h5" color="#2f575c">
               Item details
             </Typography>
           </Grid>
@@ -103,7 +103,7 @@ function ItemDetailsPage() {
                   (key, index) =>
                     !["image_url"].includes(key) && (
                       <Stack direction="row" alignItems="center" key={index}>
-                        <Typography variant="h6" color="primary">
+                        <Typography variant="h6" color="#2f575c">
                           {key} :
                         </Typography>
                         <Typography sx={{ marginLeft: 1 }}>

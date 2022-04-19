@@ -3,7 +3,7 @@ import React from "react";
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 // components
 import Header from "../components/Header";
-import lostImage from "../assets/lost.jpg";
+import lostImage from "../assets/lostAndFound.jpg";
 
 // -------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ function HomePage() {
           <Grid item xs={12} sm={6} md={6} lg={6}>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={12} md={12} lg={12}>
-                <Typography variant="h4" color="red">
+                <Typography variant="h4" color="#2f575c">
                   Welcome to Dhalati Bot.
                 </Typography>
               </Grid>
@@ -27,7 +27,7 @@ function HomePage() {
                 </Typography>
               </Grid>
               <Grid item xs={12} sm={12} md={12} lg={12}>
-                <Button variant="contained" sx={{ backgroundColor: "red" }}>
+                <Button variant="contained" sx={{ backgroundColor: "#2f575c" }}>
                   View BOT
                 </Button>
               </Grid>
